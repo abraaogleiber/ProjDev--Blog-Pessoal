@@ -1,57 +1,71 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
+
 <head>
 	<meta charset="UTF-8">
-	<link rel="shortcut icon" href="logo2.png" type="image/x-icon">
+	<link rel="shortcut icon" href="imagens/logo2.png" type="image/x-icon">
 	<title>ConstruWeb</title>
 	<link rel="stylesheet" href="styles/style.css" type="text/css">
 </head>
 
 <body>
-	<main id="corpo">
-  	<header id="topo-pagina">
-    	<img src="logo2.png" alt="Logomarca da ConstruWeb.">
-      <h1>MeuBlog.com</h1>
-      <h4>O melhor site de fofocas da cidade!.</h4>
-    </header>
-    <nav id="barra">
-      <p id="ancoras-barra">
-        <a class="ancora-barra" href="#">Cadastre-se</a>
-        <a class="ancora-barra" href="#">Seja um Patrocinador</a>
-        <a class="ancora-barra" href="#">Destaques da Semana</a>
-        <a class="ancora-barra" href="#">Quem Somos</a>
-      </p>
+	<header id="topo-pagina">
+		<img src="imagens/logo2.png" alt="Logomarca da ConstruWeb.">
+		<h1>MeuBlog.com</h1>
+		<h4>O melhor site de fofocas da cidade!.</h4>
+		
+		<nav id="links-navegacao">
+      <a class="ancora-barra" href="#">Cadastre-se</a>
+      <a class="ancora-barra" href="#">Seja um Patrocinador</a>
+      <a class="ancora-barra" href="#">Destaques da Semana</a>
+      <a class="ancora-barra" href="#">Quem Somos</a>
     </nav>
+	</header>
+	<main id="corpo">
   	<article id="artigo">
-      <h2 class="titulo-artigo">Meu Dia Predileto &#x1f604;</h2>
-      <p class="texto-artigo">
-      	Seja sei ser dois,seja dois sem ser unicamente um, <q><em><ins>Seja sei ser dois</ins></em></q>,seja
-        dois sem ser unicamente um. Seja sei ser dois,seja dois sem ser unicamente um, Seja sei ser dois,seja
-        dois sem ser unicamente um,
-        <mark><abbr title="Estado de quem É." style="text-decoration: none;">Seja</abbr></mark>
-        sei ser dois,seja dois sem ser unicamente um.
-      </p>
-      <p class="texto-artigo">
-        Seja sei ser dois,seja dois sem ser unicamente um, Seja sei ser dois,seja dois sem ser unicamente
-        um, Seja sei ser dois,seja dois sem ser unicamente um, Seja sei ser dois,seja dois sem ser unicamente um.
-        Seja sei ser dois,seja dois sem ser unicamente um, Seja sei ser dois,seja dois sem ser unicamente um.
-        <blockquote><q>
-        Seja sei ser dois,seja dois <strong>sem ser unicamente um</strong>, Seja sei ser dois,seja dois
-        sem ser unicamente um.
-        </q></blockquote>
-      </p>
-      <h2 class="titulo-artigo">Veja o Vídeo da Viagem!</h2>
-      <p class="texto-artigo" style="font-size: 14px;">
-        O dia não poderia ser eternizado de outra maneira, por isso gravamos.
-      </p>
+			<section>
+				<header>
+      		<h2 class="titulo-artigo">Meu Dia Predileto &#x1f604;</h2>
+				</header>
+				<p class="texto-artigo">
+      		Seja sei ser dois,seja dois sem ser unicamente um,
+					 <q><em><ins>Seja sei ser dois</ins></em></q>,seja
+        	dois sem ser unicamente um. Seja sei ser dois,seja
+					 dois sem ser unicamente um, Seja sei ser dois,seja
+        	dois sem ser unicamente um,
+        	<mark><abbr title="Estado de quem É." style="text-decoration: none;">Seja</abbr></mark>
+        	sei ser dois,seja dois sem ser unicamente um.
+      	</p>
+
+      	<p class="texto-artigo">
+        	Seja sei ser dois,seja dois sem ser unicamente um, 
+					Seja sei ser dois,seja dois sem ser unicamente
+        	um, Seja sei ser dois,seja dois sem ser unicamente um,
+					 Seja sei ser dois,seja dois sem ser unicamente um.
+        	Seja sei ser dois,seja dois sem ser unicamente um,
+					 Seja sei ser dois,seja dois sem ser unicamente um.
+        	<blockquote><q>
+        	Seja sei ser dois, seja dois <strong>sem ser unicamente um</strong>, Seja sei ser dois,seja dois
+        	sem ser unicamente um.
+        	</q></blockquote>
+      	</p>
+			</section>
+
       <section id="caixa-midias">
-        <video class="caixa-video" width="550" poster="flor.jpg" controls>
+				<header>
+					<h2 class="titulo-artigo">Veja o Vídeo da Viagem!</h2>
+      		<p class="texto-artigo" style="font-size: 14px;">
+        		O dia não poderia ser eternizado de outra maneira, por isso gravamos.
+      		</p>
+				</header>
+        <video class="caixa-video" width="550" poster="imagens/flor.jpg" controls>
           <source src="ipv6.mp4" type="video/mp4">
         </video>
-        <img class="caixa-imagem1" src="imagem1-p.png" alt="momentos bons, com amigos">
-        <img class="caixa-imagem2" src="imagem2-p.png" alt="momentos bons, com amigos">
-        <img class="caixa-imagem3" src="imagem3-p.png" alt="momentos bons, com amigos">
+				<figure>
+        	<img class="caixa-imagem1" src="imagens/imagem1-p.png" alt="momentos bons, com amigos">
+        	<img class="caixa-imagem2" src="imagens/imagem2-p.png" alt="momentos bons, com amigos">
+        	<img class="caixa-imagem3" src="imagens/imagem3-p.png" alt="momentos bons, com amigos">
+				</figure>
         <p class="caixa-texto1">
           Ao lado temos três imagens que comprovam nossa ida até o local, e são registros de bons
           momentos, espero que vocês possam visita-lo também em algum momento, mas creio que seja
@@ -62,20 +76,24 @@
           deixar passar nada &#x1f604;, espero que gostei.
         </p>
         <aside id="caixa-periferico">
-          <h4>Tá afim de ver todas as fotos da viagens e mais?</h4>
-          <p class="texto-periferico">
+					<header>
+          	<h4>Tá afim de ver todas as fotos da viagens e mais?</h4>
+          </header>
+					<p class="texto-periferico">
             Então acesse o link do nosso repositório de registros de todas as viagens que fizemos!<br>
-            <a class="ancora-periferico" href="">clicando aqui</a>
+            <a class="ancora-periferico" href="#">clicando aqui</a>
           </p>
         </aside>
       </section>
     </article>
-    <footer id="base-pagina">
-      <p class="texto-base">Desenvolvido por Abraão A. Silva<br>
+    <footer id="rodape-pagina">
+      <p id="texto-rodape">Desenvolvido por Abraão A. Silva<br>
       	Copyright &copy;, todos os direitos reservados à ConstruWeb &reg;</p>
       <p>B-Roll(Vídeo) fornecido por <a href="http://videezy.com">Videezy.com</a></p>
-      <img class="logo-imagem" src="logo1.png" alt="logomarca da empresa ConstruWeb.">
-    </footer>
+			<figure>
+      	<img class="logo-imagem" src="imagens/logo1.png" alt="logomarca da empresa ConstruWeb.">
+			</figure>
+		</footer>
 </main>
 
 </body>
