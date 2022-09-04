@@ -65,7 +65,7 @@ header > h4 {
     padding-right: 30px;
 }
 
-article#artigo {
+#artigo {
     min-width: 300px;
     max-width: 1000px;
     min-height: 800px;
