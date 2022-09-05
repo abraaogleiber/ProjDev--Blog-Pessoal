@@ -1,11 +1,10 @@
 @charset "UTF-8";
-/* Esta é minha primeira folha de estilo*/
 
 body {
     margin: 0%;
 }
 
-#corpo{
+main {
     min-width: 400px;
     max-width: 1200px;
     min-height: 1400px;
@@ -14,7 +13,7 @@ body {
     margin: 0%;
 }
 
-#topo-pagina {
+header {
     position: relative;
     padding: 70px;
 }
@@ -45,7 +44,7 @@ header > h4 {
     left: 40%;
 }
 
-#links-navegacao {
+header > nav {
     background-color: #46463e;
     padding: 1px;
     margin-top: 65px;
